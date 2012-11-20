@@ -80,3 +80,7 @@ nginx-pinba
 nginx-http-substitution-filter
   Homepage: https://github.com/yaoweibin/ngx_http_substitutions_filter_module
   Version: v0.6.2-6aa992a2
+
+nginx-tcp-proxy
+  Homepage: https://github.com/yaoweibin/nginx_tcp_proxy_module
+  Version: 287bdc15

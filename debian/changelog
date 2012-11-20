@@ -1,3 +1,9 @@
+nginx (1.2.5-1~dotdeb.1) stable; urgency=medium
+
+  * Adds the TCP proxy module to nginx-full, nginx-passenger and nginx-extras
+
+ -- Guillaume Plessis <gui@dotdeb.org>  Tue, 20 Nov 2012 09:51:42 -0800
+
 nginx (1.2.5-1~dotdeb.0) stable; urgency=medium
 
   * New upstream release

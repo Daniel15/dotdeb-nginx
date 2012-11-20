@@ -109,6 +109,7 @@ config.status.full: config.env.full config.sub config.guess
 	    --add-module=$(MODULESDIR)/nginx-cache-purge \
 	    --add-module=$(MODULESDIR)/nginx-pinba \
 	    --add-module=$(MODULESDIR)/nginx-http-substitution-filter \
+	    --add-module=$(MODULESDIR)/nginx-tcp-proxy \
             $(CONFIGURE_OPTS) >$@
 	touch $@
 
@@ -195,6 +196,7 @@ config.status.extras: config.env.extras config.sub config.guess
 	    --add-module=$(MODULESDIR)/nginx-cache-purge \
 	    --add-module=$(MODULESDIR)/nginx-pinba \
 	    --add-module=$(MODULESDIR)/nginx-http-substitution-filter \
+	    --add-module=$(MODULESDIR)/nginx-tcp-proxy \
             $(CONFIGURE_OPTS) >$@
 	touch $@
 
@@ -271,6 +273,7 @@ config.status.passenger: config.env.passenger config.sub config.guess
 	    --add-module=$(MODULESDIR)/ruby-passenger/ext/nginx \
 	    --add-module=$(MODULESDIR)/nginx-pinba \
 	    --add-module=$(MODULESDIR)/nginx-http-substitution-filter \
+	    --add-module=$(MODULESDIR)/nginx-tcp-proxy \
 	    $(CONFIGURE_OPTS) >$@
 	touch $@
 

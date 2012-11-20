@@ -106,7 +106,7 @@ Description: nginx web/proxy server (standard version)
  THIRD PARTY MODULES: Auth PAM, DAV Ext, Echo, Upstream Fair Queue.
  .
  MODULES ADDED BY DOTDEB : File AIO, Secure link, Syslog, Cache purge, Pinba,
- HTTP substitution filter
+ HTTP substitution filter, TCP proxy
 
 Package: nginx-full-dbg
 Architecture: any
@@ -212,7 +212,7 @@ Description: nginx web/proxy server (extended version)
  Upload Progress, Upstream Fair Queue.
  .
  MODULES ADDED BY DOTDEB : File AIO, Syslog, Cache purge, Pinba, HTTP
- substitution filter
+ substitution filter, TCP proxy
 
 Package: nginx-extras-dbg
 Architecture: any
@@ -347,7 +347,7 @@ Description: nginx web/proxy server (Passenger version)
  THIRD PARTY MODULES: Echo, Upstream Fair Queue, Passenger.
  .
  MODULES ADDED BY DOTDEB : File AIO, Secure link, Auth PAM, Headers more,
- Syslog, Cache purge, Pinba, HTTP substitution filter
+ Syslog, Cache purge, Pinba, HTTP substitution filter, TCP proxy
 
 Package: nginx-passenger-dbg
 Architecture: linux-any kfreebsd-any
